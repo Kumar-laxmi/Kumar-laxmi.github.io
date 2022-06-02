@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "A Personal portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kumar-laxmi/Portfolio-Website.git"
+  },
+  "author": "Kumar Laxmikant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kumar-laxmi/Portfolio-Website/issues"
+  },
+  "homepage": "https://github.com/Kumar-laxmi/Portfolio-Website#readme"
+}
