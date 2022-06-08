@@ -2,6 +2,7 @@ a.nav-link{
     position: relative;
     color: white;
     text-decoration: none;
+    font-size: medium;
 }
 
 a.nav-link:hover {
