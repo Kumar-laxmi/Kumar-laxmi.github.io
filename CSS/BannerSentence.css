@@ -1,47 +1,47 @@
-body {
-  margin: 0;
-  padding: 0;
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
+.hidden {
+  opacity:0;
 }
-.main {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  background-color: black;
-  font-size: 45px;
-  font-family: "Lato", sans-serif;
-}
-h2 {
+.console-container {
+  font-family:Ubuntu Mono, monospace;
+  font-weight:300;
+  font-size:80px;
+  text-align:left;
+  height:200px;
+  width:800px;
+  display:block;
+  position:absolute;
+  color:#6600ff;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+  padding: 0 30px;
   text-transform: uppercase;
-  margin-top: 34px;
-  font-weight: 300;
-  background: linear-gradient(to right,#3b3b3b 50%, #fff 40%);
-  background-clip: border-box;
-  background-size: 200% auto;
-  background-clip: text;
-  -webkit-background-clip: text;
-  text-fill-color: transparent; 
-  -webkit-text-fill-color: transparent;
-  transition: 2s ease-in-out ;
-  
+  letter-spacing: -0.5px;
 }
-h2:hover {
-  animation: textanimation reverse infinite 2s;
-
-   transform: scale(1.07,1.07);
-    transition: 2s cubic-bezier(0, 0.21, 0.18, 0.9);
- 
+h2{
+  font-size:60px;
+  color: #F2F2F2;
+  margin:0;
+  letter-spacing: 1px;
 }
-
-@keyframes textanimation {
- 
-  to {
-    background-position: 200% center;
-    
-  }
-  
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
 }
-p{
-  color:#ddd;
-  font-size:20px;
+#text{
+  font-size: 80px;
+        font-weight: 400;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: linear-gradient(60deg, #6600ff, #ffffff);
+        background-clip: text;
+        color: transparent;
+}
+.console-underscore{
+  color: #6600ff;
 }
