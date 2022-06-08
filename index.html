@@ -14,6 +14,7 @@
         <!-- Import Local CSS Styles -->
         <link rel="stylesheet" href="./CSS/styles.css">
         <link rel="stylesheet" href="./CSS/particle.css">
+        <link rel="stylesheet" href="./CSS/preloader.css">
 
         <!-- Import Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,8 +25,13 @@
         <link rel="icon" href="./ICON/adidas_logo_icon_181260.ico">
     </head>
     <body>
+        <!-- Preloader -->
+        <div id="preloader">
+            <div id="status"></div>
+        </div>
+
         <!-- particles.js container --> 
-        <div id="particles-js" class="mt-0"></div> 
+        <div id="particles-js"></div> 
 
         <nav class="navbar navbar-expand-lg bg-transparent overflow-hidden">
             <div class="container mr-auto mt-4">
@@ -34,6 +40,9 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#">HOME</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#">PROJECTS</a>
                         </li>
@@ -52,6 +61,28 @@
             </div>
         </nav>
 
+        <!-- **** Hero Section **** -->
+        <section id="hero" class="jumbotron">
+            <div class="container">
+                <h1 class="hero-title load-hidden">
+                    Hi, my name is <span class="text-color-main">Your Name</span>
+                    <br />
+                    I'm the Unknown Developer.
+                </h1>
+                <p class="hero-cta load-hidden">
+                    <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+                    >Know more</a
+                    >
+                </p>
+            </div>
+        </section>
+        <!-- /END Hero Section -->
+
+        <!-- Preloader JS File -->
+        <script src="./JS/preloader.js"></script>
+
+        <!-- Main index.js import -->
+        <script src="./JS/index.js"></script>
         
         <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
         <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
