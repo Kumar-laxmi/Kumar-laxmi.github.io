@@ -52,17 +52,17 @@
 .seo-progress{
     background: #035aa6;
 }
-.portfolio-text h2{
+.project-text h2{
     color: #035aa6;
 }
-.portfolio-text button{
+.project-text button{
     color: #035aa6;
     border: 1.5px solid #035aa6;
 }
-.portfolio-text button::before{
+.project-text button::before{
     background: #035aa6;
 }
-.portfolio-image img::before{
+.project-image img::before{
     background: #035aa6;
 }
 .blog-date{

@@ -1,6 +1,6 @@
 /*!
   * Item: Willy Wonka Theme
-  * Description: Personal Portfolio Website Template
+  * Description: Personal project Website Template
   * Author/Developer: Sujal
   * Version: v1
   */
@@ -761,7 +761,7 @@ body{
     transition: all .4s ease;
     background: #c70039;
 }
-.portfolio-header{
+.project-header{
     height: auto;
     width: 100%;
     text-align: center;
@@ -787,7 +787,7 @@ body{
     color: whitesmoke;
     font-weight: 400;
 }
-.portfolio{
+.project{
     height:auto;
     width: 100%;
     display: flex;
@@ -800,7 +800,7 @@ padding-top: 50px;
 padding-bottom: 40px;
 }
 
-.portfolio-text{
+.project-text{
     width: 40%;
     padding-left: 1%;
     margin: 1%;
@@ -813,7 +813,7 @@ padding-bottom: 40px;
     padding-bottom: 10px;
 }
 
-.portfolio-text h2{
+.project-text h2{
     font-size: 35px;
     font-family: poppins;
     font-weight: 200;
@@ -821,14 +821,14 @@ padding-bottom: 40px;
     color: #c70039;
     transition: all .4s ease;
 }
-.portfolio-text p{
+.project-text p{
     font-size: 16px;
     opacity: .8;
     font-family: poppins;
     font-weight: 200;
     padding: 20px;
 }
-.portfolio-text button{
+.project-text button{
     font-size: 16px;
     opacity: .8;
     font-family: poppins;
@@ -845,7 +845,7 @@ padding-bottom: 40px;
     position: relative;
     transition: all .4s ease;
 }
-.portfolio-text button::before{
+.project-text button::before{
     content: "";
     position: absolute;
     width: 0%;
@@ -857,7 +857,7 @@ padding-bottom: 40px;
     background: #c70039;
     transition: all .7s ease;
 }
-.portfolio-text button:hover{
+.project-text button:hover{
     opacity: 1;
     color:whitesmoke;
 }
@@ -865,23 +865,23 @@ padding-bottom: 40px;
      position: relative;
     z-index: 4;
 }
-.portfolio-text button:hover::before{
+.project-text button:hover::before{
     opacity: 1;
     width: 120%;
 }
 .button{
     text-align: center;
 }
-    .portfolio-image img{
+    .project-image img{
         height: 400px;
         width: 100%;
         position: relative;
     }
-    .portfolio-image{
+    .project-image{
         height: 400px;
         width: 40%;
     }
-.portfolio-image img::before{
+.project-image img::before{
     content: "";
     height: 100%;
     width: 100%;
@@ -893,7 +893,7 @@ padding-bottom: 40px;
     position: absolute;
     z-index: 2;
 }
-#portfolio-content{
+#project-content{
     width: 100%;
     display: flex;
     height: auto;
@@ -901,7 +901,7 @@ padding-bottom: 40px;
     justify-content: center;
     overflow: hidden;
 }
-#portfolio{
+#project{
     display: none;
     height: auto;
     overflow-x: hidden;
@@ -1526,7 +1526,7 @@ For devices with smaller width like mobile phone
         margin-top: 20px;
         margin-bottom: 15px;
     }
-    .portfolio{
+    .project{
         height:auto;
         width: 100%;
         display: flex;
@@ -1538,7 +1538,7 @@ For devices with smaller width like mobile phone
     padding-top: 50px;
     padding-bottom: 40px;
     }
-    .portfolio-text{
+    .project-text{
         width: 90%;
         padding-left: 0%;
         margin: 0%;
@@ -1549,16 +1549,16 @@ For devices with smaller width like mobile phone
         padding-top: 10px;
         padding-bottom: 10px;
     }
-        .portfolio-image{
+        .project-image{
             position: relative;
         }
-            .portfolio-text h2{
+            .project-text h2{
                 font-size: 22px;
                 font-family: poppins;
                 font-weight: 200;
                 padding: 10px;
             }
-            .portfolio-text p{
+            .project-text p{
                 font-size: 15px;
                 opacity: .8;
                 font-family: poppins;
@@ -1571,11 +1571,11 @@ For devices with smaller width like mobile phone
             .service:hover .service-img img{
                 box-shadow:0px 0px 0px 0px #c70039 ;
             }
-            .portfolio-image img{
+            .project-image img{
                 height: 300px;
                 width: 100%;
             }
-            .portfolio-image{
+            .project-image{
                 height: 300px;
                 width: 90%;
             }
@@ -1997,7 +1997,7 @@ for tabs and large phones
         margin-top: 20px;
         margin-bottom: 15px;
     }
-    .portfolio{
+    .project{
         height:auto;
         width: 100%;
         display: flex;
@@ -2009,7 +2009,7 @@ for tabs and large phones
     padding-top: 50px;
     padding-bottom: 40px;
     }
-    .portfolio-text{
+    .project-text{
         width: 70%;
         padding-left: 0%;
         margin: 0%;
@@ -2020,16 +2020,16 @@ for tabs and large phones
         padding-top: 15px;
         padding-bottom: 15px;
     }
-        .portfolio-image{
+        .project-image{
             position: relative;
         }
-            .portfolio-text h2{
+            .project-text h2{
                 font-size: 35px;
                 font-family: poppins;
                 font-weight: 200;
                 padding: 15px;
             }
-            .portfolio-text p{
+            .project-text p{
                 font-size: 20px;
                 opacity: .8;
                 font-family: poppins;
@@ -2042,12 +2042,12 @@ for tabs and large phones
             .service:hover .service-img img{
                 box-shadow:0px 0px 0px 0px #c70039 ;
             }
-            .portfolio-image img{
+            .project-image img{
                 height: 380px;
                 width: 100%;
                 position: relative;
             }
-            .portfolio-image{
+            .project-image{
                 height: 380px;
                 width: 70%;
             }
@@ -2274,12 +2274,12 @@ for tabs and large phones
 
 @media all and (max-width: 9000px) and (min-width: 1441px){
 
-    .portfolio-image img{
+    .project-image img{
         height: 500px;
         width: 100%;
         position: relative;
     }
-    .portfolio-image{
+    .project-image{
         height: 500px;
         width: 40%;
     }
